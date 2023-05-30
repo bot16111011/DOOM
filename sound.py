@@ -12,3 +12,4 @@ class Sound:
         self.npc_death =pg.mixer.Sound(self.path + 'npc_death.wav')
         self.player_pain =pg.mixer.Sound(self.path + 'player_pain.wav')
         self.theme =pg.mixer.Sound(self.path + 'theme.mp3')
+        pg.mixer.music.set_volume(0.4)
