@@ -32,7 +32,7 @@ class Game:
         self.object_handler =ObjectHandler(self)
         self.weapon = Weapon(self)
         self.sound = Sound(self)
-        self.pathfinding = Pathfinding(self)
+        self.pathfinding = Pathfinding(self )
 
     def update(self): #update our screen and display information about current number of frames
         self.player.update()
